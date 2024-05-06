@@ -1,27 +1,27 @@
-:root {
-  --color1: #444444;
-  --color2: #999999;
-  --color3: #cccccc;
+body {
+  background-color: black;
+  height: 100%;
 }
 
-/*
-
-@font-face {
-    font-family: '[name]';
-    src: url('./[name].ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-html, body {
-    padding: 0;
-    margin: 0;
-    height: 100%;
-    font-family: 'name';
+#gameContainer {
+  border: 2px solid white;
+  border-radius: 5px;
 }
 
-*/
-
-p {
-  color: red;
+button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 200%;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
 }
