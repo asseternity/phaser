@@ -199,9 +199,6 @@ function update() {
   if (obstaclesSpawned == 5 && gameBeaten == false) {
     gameBeaten = true;
     setTimeout(() => finale(this), 5000);
-    for (let i = 0; i < pastObstacles.length; i++) {
-      pastObstacles[i].destroy();
-    }
   }
 }
 
