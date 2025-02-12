@@ -1,3 +1,5 @@
-# Web App
+# Phaser Sidescroller game
 
-## [link]
+A browser sidescroller game built in JS with Phaser.
+
+## https://asseternity.github.io/phaser/
